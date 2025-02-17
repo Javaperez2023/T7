@@ -499,7 +499,7 @@ document.addEventListener("DOMContentLoaded", function() {
     gainNode.connect(audioCtx.destination);
     oscillator.type = "square";
     oscillator.frequency.value = 440; // Frecuencia en Hz (nota A4)
-    gainNode.gain.value = 0.1; // Volumen
+    gainNode.gain.value = 0.02; // Volumen
     oscillator.start();
     setTimeout(() => {
       oscillator.stop();
